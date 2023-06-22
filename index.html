@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b356ad9dc8.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <title>BH Digital Solutions - </title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-digimedia-v1.css">
+  <link rel="stylesheet" href="assets/css/animated.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/scroltotop.css">
+  <link rel="stylesheet" href="assets/css/sc-icon.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
+    integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--
+
+TemplateMo 568 DigiMedia
+
+https://templatemo.com/tm-568-digimedia
+
+-->
+  <style>
+    /* Set the width and height of the scrollbar */
+    ::-webkit-scrollbar {
+      /* cursor: grab; */
+      width: 17px;
+      height: 10px;
+    }
+
+    /* Set the background color of the scrollbar track */
+    ::-webkit-scrollbar-track {
+      background-color: #f5f5f5;
+    }
+
+    /* Set the color and style of the scrollbar thumb */
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(to right, #ffbd84 0%, #ff1f8e 100%);
+      border-radius: 10px;
+      border: 2px solid #f5f5f5;
+    }
+
+    /* Set the hover effect of the scrollbar thumb */
+    ::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(to right, #ff1f8e 0%, #ffbd84 100%);
+    }
+
+    * {
+      cursor: none;
+    }
+
+    .outline {
+      width: 34px;
+      height: 34px;
+      mix-blend-mode: difference;
+      border-radius: 100%;
+      transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+      position: fixed;
+      pointer-events: none;
+      left: 0px;
+      top: 0px;
+      background: #000;
+      z-index: 999999;
+      transform: translate(-64px, -64px);
+      border: 1px solid #00855A;
+    }
+
+    .outline.hover {
+      width: 60px;
+      height: 60px;
+      /* background: #48a192; */
+      background: linear-gradient(to left, #01CB81, #003F34);
+      /* background: transparent; */
+      border: none;
+    }
+
+    .cursor {
+      width: 8px;
+      height: 8px;
+      border-radius: 100%;
+      background: linear-gradient(to right, #ffbd84 0%, #ff1f8e 100%);
+      opacity: .8;
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      pointer-events: none;
+      z-index: 999999;
+      transform: translate(50vw, -100px);
+    }
+
+
+
+    .outline.hover::after {
+      content: '';
+      position: absolute;
+      left: 0%;
+      top: 0%;
+      width: 100%;
+      height: 100%;
+      /* background-image: url('https://alien.haldenvgs.net/images/cursor.svg'); */
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .cursor.hover {
+      opacity: 0;
+    }
+
+    @media (max-width: 768px) {
+
+      .cursor,
+      .outline {
+        display: none;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <!-- [[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]] -->
+  <div class="cursor"></div>
+  <div class="outline"></div>
+  <!-- [[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]] -->
+
+
+  <div id="progress">
+    <span id="progress-value"> <a> <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+          viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+          <path
+            d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z" />
+        </svg></a></span>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="#top" class="logo" ondragstart="return false;">
+              <img src="assets/images/NEW+LOG.jpg" alt="" style="width:210px">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#about">About</a></li>
+              <li class="scroll-to-section"><a href="#services">Services</a></li>
+              <li class="scroll-to-section"><a href="#portfolio">Projects</a></li>
+              <!-- <li class="scroll-to-section"><a href="#blog">Blog</a></li> -->
+              <li class="scroll-to-section"><a href="#contact">Contact</a></li>
+              <li class="scroll-to-section">
+                <div class="border-first-button"><a href="tel:+916358936987">+91 6358936987</a></div>
+              </li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h6>Welcome to Digital Marketing Agency.</h6>
+                    <h2>Igniting Growth Through Digital Strategies.</h2>
+                    <p>Welcome to BH Digital Solutions, where success in the digital world begins. We are a full-service
+                      digital marketing company dedicated to helping businesses thrive and achieve their goals in the
+                      dynamic and ever-expanding online landscape. With our innovative strategies and cutting-edge
+                      solutions, we empower our clients to build a strong online presence, connect with their target
+                      audience, and drive impactful results.
+                    </p>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="border-first-button scroll-to-section">
+                      <a href="#contact">Free Quote</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <!-- <img
+                  src="https://img.freepik.com/free-vector/hand-drawn-illustration-people-with-smartphone-marketing_52683-66659.jpg?w=996&t=st=1683736386~exp=1683736986~hmac=fe54d53e07ed93e7eb5e391d43d40ffda7071436fb2241967a0e260494bb4da8"
+                  alt=""> -->
+                <img ondragstart="return false;" class="Home_svg" src="assets/images/1st_Page_intrdoduction.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div id="about" class="about section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="about-left-image  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img ondragstart="return false;" src="assets/images/about us.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6 align-self-center  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+              <div class="about-right-content">
+                <div class="section-heading">
+                  <h6>About Us</h6>
+                  <h4>Who is Business Hours <em>Agency</em></h4>
+                  <div class="line-dec"></div>
+                </div>
+                <p>Welcome to BH Digital Solutions, a trusted partner for businesses seeking unparalleled
+                  digital marketing solutions. With a passion for driving growth and a relentless commitment to
+                  excellence, we are dedicated to helping our clients succeed in the ever-evolving digital landscape.
+                  At BH Digital Solutions, we believe that every brand has a unique story to tell, and we're
+                  here to help you amplify that story. With our team of experienced professionals, we craft tailored
+                  strategies and leverage the latest digital tools and technologies to deliver exceptional results.</p>
+                <div class="row">
+                  <div class="col-lg-4 col-sm-4">
+                    <div class="skill-item first-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                      <div class="progress" data-percentage="100">
+                        <span class="progress-left">
+                          <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                          <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value">
+                          <div>
+                            100%<br>
+                            <span style="line-height:2px;color:black">Get Quality<br>Leads </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-sm-4">
+                    <div class="skill-item second-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                      <div class="progress" data-percentage="100">
+                        <span class="progress-left">
+                          <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                          <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value">
+                          <div>
+                            100%<br>
+                            <span style="line-height:2px;color:black">Increase Revenue</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-4">
+                    <div class="skill-item third-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                      <div class="progress" data-percentage="100">
+                        <span class="progress-left">
+                          <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                          <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value">
+                          <div>
+                            100%<br>
+                            <span style="line-height: 2px;color:black">Customer Satisfaction</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h6>Our Services</h6>
+            <h4>What Our Agency <em>Provides</em></h4>
+            <div class="line-dec"></div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="naccs">
+            <div class="grid">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="menu">
+                    <a>
+                      <div class="first-thumb active">
+                        <div class="thumb">
+                          <span class="icon"><img ondragstart="return false;"
+                              src="https://cdn-icons-png.flaticon.com/128/1260/1260235.png" alt=""></span>
+                          <p class="photo">Social Media Marketing</p>
+                        </div>
+                      </div>
+                    </a>
+
+
+                    <div><a>
+                        <div class="thumb">
+                          <span class="icon"><img ondragstart="return false;"
+                              src="https://cdn-icons-png.flaticon.com/128/3494/3494244.png" alt=""></span>
+                          <p class="photo">SEO</p>
+                        </div>
+                      </a>
+                    </div>
+
+
+                    <div><a>
+                        <div class="thumb">
+                          <span class="icon"><img ondragstart="return false;"
+                              src="https://cdn-icons-png.flaticon.com/512/1234/1234404.png?w=740&t=st=1684046055~exp=1684046655~hmac=a5ead0b901f09a0b01140dc2285f63ad5f9afd51cbc8dfbe355939afac02ee11"
+                              alt=""></span>
+                          <p class="photo">Graphic Design</p>
+                        </div>
+                      </a>
+                    </div>
+
+
+
+                    <div> <a>
+                        <div class="thumb">
+                          <span class="icon"><img ondragstart="return false;"
+                              src="https://cdn-icons-png.flaticon.com/512/1147/1147084.png?w=740&t=st=1684046107~exp=1684046707~hmac=a00f8c1dc7f45076980d0369e36daf82dc884ef1f93f311c59a20996eef7e423"
+                              alt=""></span>
+                          <p class="photo">Website Design</p>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="last-thumb"> <a>
+                        <div class="thumb">
+                          <span class="icon"><img ondragstart="return false;"
+                              src="https://cdn-icons-png.flaticon.com/512/921/921577.png?w=740&t=st=1684046211~exp=1684046811~hmac=b29515bb34dfbee9a94d3811d94ce6777b536f769b1b61fdbb6c7c8c84abd467"
+                              alt=""></span>
+                          <p class="photo">Website Development</p>
+                        </div>
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <ul class="nacc">
+                    <li class="active">
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <p class="heading_service">Social Media Marketing</p>
+                            <div class="col-lg-6 align-self-center">
+                              <div class="left-text">
+                                <h4>Unlocking the Secrets of Social Media Brilliance.</h4>
+                                <p>With our social media marketing services, you can build a strong online presence,
+                                  connect with your target audience, drive website traffic, generate leads, and
+                                  ultimately achieve your business objectivesRemember to personalize this content to
+                                  reflect your company's unique values, achievements, and brand voice..
+                                </p>
+                                <div class="ticks-list"><span><i class="fa fa-check"></i> Facebook Advertising</span>
+                                  <span><i class="fa fa-check"></i> Instagram Advertising</span><span><i
+                                      class="fa fa-check"></i> Pinterest Marketing
+                                  </span>
+                                  <span><i class="fa fa-check"></i> Linkedin Marketing</span> <span><i
+                                      class="fa fa-check"></i> Twitter Marketing</span>
+                                </div>
+                                <p><strong style="font-weight: 500;">Contact us today</strong> to learn how we can
+                                  elevate your social media strategy!</p>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 align-self-center">
+                              <div class="right-image">
+                                <img ondragstart="return false;" class="SMM" src="assets/images/SMM.jpg" alt="">
+                              </div>
+                            </div>
+                            <!-- <button id="openFormButton">Open Form</button> -->
+                          </div>
+                          <!-- ============================================================== 
+                          <button id="openFormButton">Contact Us</button>
+                          <div id="popupContainer" class="popup-container" style="z-index:99999;">
+                            <div id="popupForm" class="popup-form">
+
+                              <form action="https://formspree.io/f/mqkojpkz" id="myFormContent" method="POST" >
+                                <h2>Grab Our Best Digital Marketing Services</h2>
+                                <label for="name">Name:</label>
+                                <input type="Text" id="name" name="name" required>
+
+                                <label for="Number">Mobile No:</label>
+                                NOT IN============= <input type="Number" id="Number" name="Number" min="0" max="9999999999" maxlength="10" required> 
+                                <input type="Number" id="Number" name="Number" pattern="/^-?\d+\.?\d*$/"
+                                  onKeyPress="if(this.value.length==10) return false;" required />
+
+                                <label for="category">Which Type Of Services You Want? : </label>
+                                <select id="category" name="category" required>
+                                  <option value="Social Media Marketing">Social Media Marketing</option>
+                                  <option value="SEO">SEO</option>
+                                  <option value="Graphic Design">Graphic Design</option>
+                                  <option value="Website Design">Website Design</option>
+                                  <option value="Website Development">Website Development</option>
+                                </select>
+
+                                <label for="message">List Down Your Required Services : </label>
+                                <textarea id="message" name="message" required></textarea>
+
+                                <div class="button-container">
+                                  <button type="submit">Submit</button>
+                                  <button type="button" id="cancelButton">Cancel</button>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                           ================================================================ -->
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <p id="heading_service">Search Engine Optimization</p>
+                            <div class="col-lg-6 align-self-center">
+                              <div class="left-text">
+                                <h4>Boost Your Online Visibility with Our SEO Services</h4>
+                                <p>At BH Digital Solutions, where we specialize in driving organic traffic and enhancing
+                                  your online visibility through effective SEO strategies. Our team of experienced SEO
+                                  professionals is dedicated to helping you achieve higher search engine rankings,
+                                  increased website traffic, and improved conversions. Let us unlock the full potential
+                                  of your online presence with our comprehensive SEO services.
+                                </p>
+                                <div class="ticks-list"><span><i class="fa fa-check"></i> Keyword Reaserch &
+                                    Optimisation</span>
+                                  <span><i class="fa fa-check"></i> On Page Optimisation</span> <span><i
+                                      class="fa fa-check"></i>
+                                    Content Creation and Optimisation</span>
+                                  <span><i class="fa fa-check"></i> Technical SEO </span> <span><i
+                                      class="fa fa-check"></i>
+                                    Link Building</span> <span><i class="fa fa-check"></i> Analytics and
+                                    Reporting</span>
+                                </div>
+                                <p> <strong style="font-weight: 500;">Get In Touch With Us Today</strong> to discuss how
+                                  we can optimize your website and drive
+                                  tangible results through our proven SEO strategies.</p>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 align-self-center">
+                              <div class="right-image">
+                                <img ondragstart="return false;" src="assets/images/SEO.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <p class="heading_service">Graphic Design</p>
+                            <div class="col-lg-6 align-self-center">
+                              <div class="left-text">
+                                <h4>Elevate Your Brand with Striking Graphic Design.</h4>
+                                <p>At BH Digital Solutions, your destination for exceptional graphic design services. We
+                                  are a team of passionate designers dedicated to transforming your ideas into
+                                  captivating visual experiences. With our expertise in graphic design, we bring your
+                                  brand to life through stunning visuals that leave a lasting impression. Whether you
+                                  need a logo, website design, marketing collateral, or any other design project, we've
+                                  got you covered.</p>
+                                <div class="ticks-list"><span><i class="fa fa-check"></i> Logo Design</span>
+                                  <span><i class="fa fa-check"></i> Poster Design</span> <span><i
+                                      class="fa fa-check"></i>
+                                    Business Card/Visiting Card</span>
+                                  <span><i class="fa fa-check"></i> Business Templates</span> <span><i
+                                      class="fa fa-check"></i>
+                                    Social Media Posts</span> <span><i class="fa fa-check"></i> Company Profile & Its
+                                    Proposal</span>
+                                </div>
+                                <p>Whether you're a startup looking for a brand identity or an established business in
+                                  need of a design refresh, BH Digital Solutions is here to bring your vision to life.
+                                  <strong style="font-weight: 500;">Contact us today!</strong>
+                                </p>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 align-self-center">
+                              <div class="right-image">
+                                <img ondragstart="return false;" src="assets/images/GD.svg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <p class="heading_service">Website Design</p>
+                            <div class="col-lg-6 align-self-center">
+                              <div class="left-text">
+                                <h4>Empowering Businesses with Exceptional Web Design Solutions</h4>
+                                <p>At BH Digital Solutions, we understand the significance of a well-designed website in
+                                  today's digital landscape. We take a collaborative approach, working closely with you
+                                  to understand your goals, target audience, and unique brand identity. This deep
+                                  understanding forms the foundation for our design process as we create a website that
+                                  not only captures your vision but also resonates with your users.</p>
+                                <div class="ticks-list">
+                                  <span><i class="fa fa-check"></i> Responsive Website Design</span>
+                                  <span><i class="fa fa-check"></i> E-commerce Solutions</span>
+                                  <span><i class="fa fa-check"></i> Custom Website Development</span>
+                                  <span><i class="fa fa-check"></i> SEO-Friendly Design</span>
+                                  <span><i class="fa fa-check"></i>Website Maintenance and Support</span>
+                                  <span><i class="fa fa-check"></i> UI/UX Design:</span>
+
+                                </div>
+                                <p> <strong style="font-weight: 500;">Contact us today</strong> to embark on a journey
+                                  of exceptional web design that propels your business forward..</p>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 align-self-center">
+                              <div class="right-image">
+                                <img ondragstart="return false;" src="assets/images/WD.svg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <p class="heading_service">Website Development</p>
+                            <div class="col-lg-6 align-self-center">
+                              <div class="left-text">
+                                <h4>Innovative Web Solutions to Amplify Your Brand</h4>
+                                <p>We understand the importance of a strong online presence in today's digital world,
+                                  and we are here to help you build it with purpose. Whether you're a small business, a
+                                  startup, or a large corporation, we have the expertise to elevate your brand through
+                                  stunning website design and development.With our innovative web solutions, we empower
+                                  businesses to unlock their full potential. </p>
+                                <div class="ticks-list"><span><i class="fa fa-check"></i> Custom Website
+                                    Development</span>
+                                  <span><i class="fa fa-check"></i> E-commerce Development</span> <span><i
+                                      class="fa fa-check"></i>
+                                    Website Optimization</span>
+                                  <span><i class="fa fa-check"></i> Website Security</span> <span><i
+                                      class="fa fa-check"></i>
+                                    Social Media Integration</span> <span><i class="fa fa-check"></i> Web Application
+                                    Development</span> <br>
+                                  <span><i class="fa fa-check"></i> Website Analytics and Tracking</span>
+
+                                </div>
+                                <p>Our website development services are tailored to meet your specific requirements and
+                                  deliver a high-quality, performance-driven website that aligns with your business
+                                  objectives. <strong style="font-weight: 500;">Contact us today!</strong> </p>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 align-self-center">
+                              <div class="right-image">
+                                <img ondragstart="return false;" src="assets/images/WDevelopment.svg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ============================================================== -->
+  <button style="color:#fa65b1;" onmouseover="this.style.color='white';" onmouseout="this.style.color='#fa65b1';"
+    id="openFormButton"> <a>Contact Us</a></button>
+  <div id="popupContainer" class="popup-container" style="z-index:99999;">
+    <div id="popupForm" class="popup-form">
+
+      <form action="https://formspree.io/f/mqkojpkz" id="myFormContent" method="POST">
+        <h2>Grab Our Best Digital Marketing Services</h2>
+        <label for="name">Name : </label>
+        <input type="Text" id="name" name="name" required>
+
+        <label for="Number">Mobile No : </label>
+        <!-- <input type="Number" id="Number" name="Number" min="0" max="9999999999" maxlength="10" required> -->
+        <input type="Number" id="Number" name="Number" pattern="/^-?\d+\.?\d*$/"
+          onKeyPress="if(this.value.length==10) return false;" required />
+
+        <label for="category">Which Type Of Services You Want? : </label>
+        <select id="category" name="category" required>
+          <option value="Social Media Marketing">Social Media Marketing</option>
+          <option value="SEO">SEO</option>
+          <option value="Graphic Design">Graphic Design</option>
+          <option value="Website Design">Website Design</option>
+          <option value="Website Development">Website Development</option>
+        </select>
+
+        <label for="message">List Down Your Required Services : </label>
+        <textarea id="message" name="message" required></textarea>
+
+        <div class="button-container">
+          <button style="color: black;" type="cancel" id="cancelButton"><a>Cancel</a></button>
+          <button type="submit"><a>Submit</a></button>
+
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- ================================================================ -->
+
+
+  <!-- 
+  <div id="free-quote" class="free-quote">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4">
+          <div class="section-heading  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+            <h6>Get Your Free Quote</h6>
+            <h4>Grow With Us Now</h4>
+            <div class="line-dec"></div>
+          </div>
+        </div>
+        <div class="col-lg-8 offset-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
+          <form  id="search" action="#" method="GET">
+            <div class="row">
+              <div class="col-lg-4 col-sm-4">
+                <fieldset>
+                  <input type="web" name="web" class="website" placeholder="Your website URL..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-4 col-sm-4">
+                <fieldset>
+                  <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-4 col-sm-4">
+                <fieldset>
+                  <button type="submit" class="main-button">Get Quote Now</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ -->
+  <div id="portfolio" class="our-portfolio section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+            <h6>Our Portofolio</h6>
+            <h4>See Our Recent <em>Projects</em></h4>
+            <div class="line-dec"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="loop owl-carousel">
+            <div class="item">
+              <a>
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <!-- <img ondragstart="return false;" src="assets/images/portfolio-01.jpg" alt=""> -->
+                    <img ondragstart="return false;"
+                      src="https://marketplace.canva.com/EAE3lxebXtk/1/0/1600w/canva-home%2C-real-estate%2C-home-design-logo-eaGl0uXNSMo.jpg"
+                      alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Real Estate Agency</h4>
+                    <span>Digital Marketing<br>SEO</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a>
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img ondragstart="return false;" src="assets/images/The Scale-Up.png" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>The Scale-Up Institute</h4>
+                    <span>Website Design &<br>Development</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a>
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img ondragstart="return false;" src="assets/images/Heet - travel agency.png" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Heet Travel Agency</h4>
+                    <span>Graphic Design &<br>Social Media Marketing</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a>
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img ondragstart="return false;" src="assets/images/Pizza Paradise.png" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Pizza Paradise</h4>
+                    <span>Social Media Marketing &<br>Website Design</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a>
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img ondragstart="return false;" src="assets/images/Learning Curve.png" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Learning Curve Academy</h4>
+                    <span>Social Media Marketing &<br>Website Design</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a>
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img ondragstart="return false;" src="assets/images/Alpha-Car wash.png" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Alpha Car Wash</h4>
+                    <span>Social Media Marketing &<br>SEO</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a>
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img ondragstart="return false;" src="assets/images/Rudra dental clinic.png" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Rudra Dental Clinic</h4>
+                    <span>Social Media Marketing</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ===================================================ALL_PROJECTS_BLOG ======================================= -->
+  <!-- <div id="blog" class="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="section-heading">
+            <h6>Recent News</h6>
+            <h4>Check Our Blog <em>Posts</em></h4>
+            <div class="line-dec"></div>
+          </div>
+        </div>
+        <div class="col-lg-6 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="blog-post">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/blog-post-01.jpg" alt=""></a>
+            </div>
+            <div class="down-content">
+              <span class="category">SEO Analysis</span>
+              <span class="date">03 August 2021</span>
+              <a href="#">
+                <h4>Lorem Ipsum Dolor Sit Amet, Consectetur Adelore
+                  Eiusmod Tempor Incididunt</h4>
+              </a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers itii eiumod deis tempor incididunt
+                ut labore.</p>
+              <span class="author"><img src="assets/images/author-post.jpg" alt="">By: Andrea Mentuzi</span>
+              <div class="border-first-button"><a href="#">Discover More</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="blog-posts">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="post-item">
+                  <div class="thumb">
+                    <a href="#"><img src="assets/images/blog-post-02.jpg" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">SEO Analysis</span>
+                    <span class="date">24 September 2021</span>
+                    <a href="#">
+                      <h4>Lorem Ipsum Dolor Sit Amei Eiusmod Tempor</h4>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, cocteturi adipiscing eliterski.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="post-item">
+                  <div class="thumb">
+                    <a href="#"><img src="assets/images/blog-post-03.jpg" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">SEO Analysis</span>
+                    <span class="date">24 September 2021</span>
+                    <a href="#">
+                      <h4>Lorem Ipsum Dolor Sit Amei Eiusmod Tempor</h4>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, cocteturi adipiscing eliterski.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="post-item last-post-item">
+                  <div class="thumb">
+                    <a href="#"><img src="assets/images/blog-post-04.jpg" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">SEO Analysis</span>
+                    <span class="date">24 September 2021</span>
+                    <a href="#">
+                      <h4>Lorem Ipsum Dolor Sit Amei Eiusmod Tempor</h4>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, cocteturi adipiscing eliterski.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div id="contact" class="contact-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h6>Contact Us</h6>
+            <h4>Get In Touch With Us <em>Now</em></h4>
+            <div class="line-dec"></div>
+          </div>
+        </div>
+        <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
+          <form action="https://formspree.io/f/xbjebkdz" id="contact" method="POST">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="contact-dec">
+                  <img ondragstart="return false;" src="assets/images/contact-dec.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div id="map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29382.749203494128!2d72.58373700710186!3d22.99277616945301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85c2e335ed6b%3A0xd19a77c6688f5c9b!2sManinagar%2C%20Ahmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1684068623697!5m2!1sen!2sin"
+                    width="100%" height="636px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="fill-form">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="info-post">
+                        <div class="icon">
+                          <img ondragstart="return false;" src="assets/images/phone-icon.png" alt="">
+                          <a href="tel:+916358936987" target="_blank">+91 6358936987</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="info-post">
+                        <div class="icon">
+                          <img ondragstart="return false;"
+                            src="https://cdn-icons-png.flaticon.com/128/10707/10707412.png" alt="">
+                          <a href="mailto:bhdigitalsolutions172@gmail.com" target="_blank">bhdigitalsolutions172 <br>
+                            @gmail.com</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="info-post">
+                        <div class="icon">
+                          <img ondragstart="return false;" src="assets/images/location-icon.png" alt="">
+                          <a href="https://goo.gl/maps/eDmnnx3bXhtmE4vLA?coh=178572&entry=tt"
+                            target="_blank">Ahmedabad</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <fieldset>
+                        <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                      </fieldset>
+                      <fieldset>
+                        <input type="text" name="Email" id="Number" pattern="[^ @]*@[^ @]*" placeholder="Your Email"
+                          required="">
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-6">
+                      <fieldset>
+                        <textarea name="message" type="text" class="form-control" id="message" placeholder="Message"
+                          required=""></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-12">
+                      <a>
+                        <fieldset>
+                          <button style="color:#fa65b1;" onmouseover="this.style.color='white';"
+                            onmouseout="this.style.color='#fa65b1';" type="submit" id="form-submit"
+                            class="main-button">Send Message Now</button>
+                        </fieldset>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <div class="contact_us_6">
+    <div class="responsive-container-block container">
+      <form action="https://formspree.io/f/xbjebkdz" method="POST" class="form-box">
+        <div class="container-block form-wrapper">
+          <div class="mob-text">
+            <p class="text-blk contactus-head">
+              Get in Touch
+            </p>
+            <p class="text-blk contactus-subhead">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis diam lectus sapien. lorem
+            </p>
+          </div>
+          <div class="responsive-container-block" id="i2cbk">
+            <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i10mt-3">
+              <p class="text-blk input-title">
+               First Name : 
+              </p>
+              <input class="input" id="ijowk-3" name="FirstName" placeholder="Please enter first name..." required>
+            </div>
+            <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="ip1yp">
+              <p class="text-blk input-title">
+              Email :
+              </p>
+              <input class="input" id="ipmgh-3" name="Email" placeholder="Please enter email..." required>
+            </div>
+            <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="ih9wi">
+              <p class="text-blk input-title">
+                Phone number :
+              </p>
+              
+              <input class="input" id="imgis-3" type="Number" name="PhoneNumber" pattern="/^-?\d+\.?\d*$/" placeholder="Please enter phone number..." onKeyPress="if(this.value.length==10) return false;" required>
+
+
+            </div>
+            <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-3">
+              <p class="text-blk input-title">
+                What do you have in mind?:
+              </p>
+              <textarea class="textinput" id="i5vyy-3" placeholder="Please enter query..." required></textarea>
+            </div>
+          </div>
+          <button class="submit-btn" id="w-c-s-bgc_p-1-dm-id-2">
+            Submit
+          </button>
+        </div>
+      </form>
+      <div class="responsive-cell-block wk-desk-7 wk-ipadp-12 wk-tab-12 wk-mobile-12" id="i772w">
+        <div class="map-part">
+          <p class="text-blk map-contactus-head" id="w-c-s-fc_p-1-dm-id">
+            Reach us at
+          </p>
+          <p class="text-blk map-contactus-subhead">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis diam lectus sapien.
+          </p>
+          <div class="social-media-links mob">
+            <a class="social-icon-link" href="#" id="itixd">
+              <img class="link-img image-block" src="https://img.freepik.com/free-icon/facebook_318-566730.jpg">
+            </a>
+            <a class="social-icon-link" href="#" id="izldf-2-2">
+              <img class="link-img image-block" src="https://i.pinimg.com/originals/72/9f/77/729f7798561be2cb67f39e916a22eb6a.png">
+            </a>
+          </div>
+           <div class="map-box container-block"> 
+            <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29382.749203494128!2d72.58373700710186!3d22.99277616945301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85c2e335ed6b%3A0xd19a77c6688f5c9b!2sManinagar%2C%20Ahmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1684068623697!5m2!1sen!2sin"
+                    width="100%" height="636px" class="map-box container-block" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <footer>
+    <div id="sc-div">
+      <a href="#" class="icon-fb">
+        <i style="font-size: 50px;" class="fa-brands fa-square-facebook"></i>
+      </a>
+      <a href="" class="icon-lnk">
+        <i style="font-size: 50px;" class="fa-brands fa-linkedin"></i>
+      </a>
+      <!-- <a href="#" class="icon git">
+        <i class="fab fa-github"></i>
+      </a> -->
+      <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" class="icon-wp">
+        <i style="font-size: 50px;" class="fa-brands fa-square-whatsapp"></i>
+      </a>
+
+      <a href="mailto:example@example.com" target="_blank" rel="noopener noreferrer" class="icon-mail">
+        <i style="font-size: 50px;" class="fa-solid fa-envelope"></i>
+      </a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2023 BH Digital Solutions, Ltd. All Rights Reserved.
+            <br><a href="https://bhdigitalsolutions.carrd.co/" target="_blank">@bhdigitalsolutions</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/scrolltotop.js"></script>
+
+
+  <script>
+    // window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
+
+    // const openFormButton = document.getElementById("openFormButton");
+    // const popupContainer = document.getElementById("popupContainer");
+    // const popupForm = document.getElementById("popupForm");
+    // const cancelButton = document.getElementById("cancelButton");
+
+    // openFormButton.addEventListener("click", function () {
+    //   popupContainer.style.display = "flex";
+    //   popupForm.style.display = "block";
+    // });
+
+    // cancelButton.addEventListener("click", function () {
+    //   popupContainer.style.display = "none";
+    //   popupForm.style.display = "none";
+    // });
+
+    // document.getElementById("myFormContent").addEventListener("submit", function (event) {
+    //   event.preventDefault();
+
+    //   // const formData = new FormData(event.target);
+    //   // const name = formData.get("name");
+    //   // const Number = formData.get("Number");
+    //   // const category = formData.get("category");
+    //   // const message = formData.get("message");
+
+    //   // popupContainer.style.display = "none";
+    //   // popupForm.style.display = "none";
+
+    //   // console.log("Name: " + name);
+    //   // console.log("Email: " + Number);
+    //   // console.log("Category: " + category);
+    //   // console.log("Message: " + message);
+    //   document.getElementById("myFormContent").addEventListener("submit", function (event) {
+    //     event.preventDefault();
+
+    //     // Clear form fields
+    //     document.getElementById("name").value = " ";
+    //     document.getElementById("Number").value = " ";
+    //     document.getElementById("category").selectedIndex = 0;
+    //     document.getElementById("message").value = " ";
+
+    //     // document.getElemenById("myFormContent").reset();
+
+    //     // Hide the form
+    //     popupContainer.style.display = "none";
+    //     popupForm.style.display = "none";
+
+    //     // Rest of your code...
+    //   });
+    // ==============================================================================================================
+    window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
+
+    const openFormButton = document.getElementById("openFormButton");
+    const popupContainer = document.getElementById("popupContainer");
+    const popupForm = document.getElementById("popupForm");
+    const cancelButton = document.getElementById("cancelButton");
+    const form = document.getElementById("myForm");
+    const contact = document.getElementById("contact");
+
+    openFormButton.addEventListener("click", function () {
+      popupContainer.style.display = "flex";
+      popupForm.style.display = "block";
+    });
+    window.addEventListener('load', function () {
+      document.getElementById("myFormContent").reset();
+    });
+    cancelButton.addEventListener("click", function () {
+      popupContainer.style.display = "none";
+      popupForm.style.display = "none";
+      form.reset(); // Reset the form fields
+    });
+    // window.onload = function () {
+    //   document.getElementById("contact").reset();
+    // };
+
+
+    window.addEventListener('load', function () {
+      document.getElementb("contact").reset();
+    });
+    // $(function () {
+    //   $(".zipcode-number").on("keyup", function (e) {
+    //     var $field = $(this),
+    //       val = this.value,
+    //       $thisIndex = parseInt($field.data("idx"), 10);
+    //     if (this.validity && this.validity.badInput || isNaN(val) || $field.is(":invalid")) {
+    //       this.value = inputQuantity[$thisIndex];
+    //       return;
+    //     }
+    //     if (val.length > Number($field.attr("maxlength"))) {
+    //       val = val.slice(0, 5);
+    //       $field.val(val);
+    //     }
+    //     inputQuantity[$thisIndex] = val;
+    //   });
+    // });
+
+    // ==============================================================================================================
+
+    //   formbutton("create", {
+    //     action: "https://formspree.io/f/mqkojpkz",
+    //     title: "How can we help?",
+    //     fields: [
+    //       {
+    //         type: "Text",
+    //         label: "Username :",
+    //         name: "Name",
+    //         required: true,
+    //         placeholder: "John Deo"
+    //       },
+    //       {
+    //         type: "Number",
+    //         label: "Email:",
+    //         name: "Number",
+    //         required: true,
+    //         placeholder: "your@Number.com"
+    //       },
+    //       {
+    //         type: "Dropdown",
+    //         label: "Category",
+    //         name: "category",
+    //         required: true,
+    //         // placeholder: ""
+    //       },
+    //       {
+    //         type: "textarea",
+    //         label: "message:",
+    //         name: "message",
+    //         placeholder: "What's on your mind?",
+    //       },
+    //       { type: "submit" }
+    //     ],
+    //   });
+    // });
+
+    let outline = document.querySelector('.outline');
+    let cursor = document.querySelector('.cursor');
+    let a = document.querySelectorAll('a');
+
+
+    document.addEventListener('mousemove', function (e) {
+      let x = e.clientX;
+      let y = e.clientY;
+      outline.style.transform = `translate( calc(${x}px - 50%), calc(${y}px - 50%) )`;
+      cursor.style.transform = `translate( calc(${x}px - 50%) , calc(${y}px - 50%) )`;
+    });
+
+
+    a.forEach((item) => {
+      item.addEventListener('mouseover', () => {
+        outline.classList.add('hover');
+        cursor.classList.add('hover');
+      });
+      item.addEventListener('mouseleave', () => {
+        outline.classList.remove('hover');
+        cursor.classList.remove('hover');
+
+      });
+    });
+  </script>
+</body>
+
+</html>
