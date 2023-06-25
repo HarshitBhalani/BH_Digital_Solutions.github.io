@@ -194,7 +194,7 @@ p {
   font-size: 15px;
   line-height: 25px;
   font-weight: 300;
-  color: #000000;
+  color: #6a6a8e;
 }
 
 .Home_svg img {
@@ -3133,7 +3133,7 @@ footer {
 }
 
 footer p {
-  text-align:center;
+  text-align:left;
   margin: 20px 0px;
   color: #fff;
 }
