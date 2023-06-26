@@ -262,13 +262,13 @@ body {
 .section-heading h6 {
   font-size: 15px;
   font-weight: 700;
-  color: #726ae3;
+  color: #E91E63;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
 
 .section-heading h4 {
-  color: #2a2a2a;
+  color: #050748;
   font-size: 35px;
   font-weight: 700;
   text-transform: capitalize;
@@ -277,20 +277,20 @@ body {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #726ae3;
+  color: #E91E63;
 }
 
 .section-heading .line-dec {
   width: 50px;
   height: 2px;
-  background-color: #726ae3;
+  background-color: #E91E63;
 }
 
 .border-first-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
   color: #fa65b1 !important;
-  border: 1px solid #fa65b1 !important;
+  border: 1px solid #fa65b1;
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -302,7 +302,16 @@ body {
   color: #fff !important;
 }
 
-
+#whatsapp a{
+  font-size: 35px;
+  color: green !important;
+  border-radius: none !important;
+  background-color: none !important;
+  border: none !important;
+}
+#whatsapp a:hover{
+  background-color: white !important;
+}
 /* 
 ---------------------------------------------
 intro
@@ -593,7 +602,7 @@ header
   display: block;
   font-weight: 500;
   font-size: 15px;
-  color: #2a2a2a;
+  color: #050748;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -1137,7 +1146,7 @@ Banner Style
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 700;
-  color: #fa65b1;
+  color: #E91E63;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
@@ -1147,7 +1156,7 @@ Banner Style
   position: relative;
   font-weight: 700;
   font-size: 49px;
-  color: #2a2a2a;
+  color: #050748;
   margin-bottom: 20px;
 }
 
@@ -1714,7 +1723,7 @@ Services Style
   display: inline-block;
   width: 100%;
   padding: 30px 0px;
-  box-shadow: 0 0px 2px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0px 5px 1px #E91E63;
   background-color: #fff;
 }
 
@@ -1788,7 +1797,7 @@ Services Style
 .services .left-text h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #fa65b1 !important;
+  color: #E91E63 !important;
 }
 
 .services .left-text p {
@@ -1965,7 +1974,7 @@ Portfolio
 .portfolio-item .down-content h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #050748;
   margin-bottom: 8px;
   transition: all .3s;
 }
@@ -3133,7 +3142,7 @@ footer {
 }
 
 footer p {
-  text-align:left;
+  text-align: left;
   margin: 20px 0px;
   color: #fff;
 }
