@@ -177,6 +177,38 @@ function waitAndResponce(inputText) {
             sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
             break;
 
+        case "hiii":
+            sendTextMessage("Hello there 👋🏻");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hii":
+            sendTextMessage("Hello there 👋🏻");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hii how are you":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hii how are you?":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hello how are you?":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hello how are you":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        
+
 
         // case "varshith":
         //     sendTextMessage("Yes, that's me");
