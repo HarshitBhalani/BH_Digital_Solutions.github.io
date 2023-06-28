@@ -302,16 +302,59 @@ body {
   color: #fff !important;
 }
 
-#whatsapp a{
+#whatsapp a {
   font-size: 35px;
   color: green !important;
   border-radius: none !important;
   background-color: none !important;
   border: none !important;
 }
-#whatsapp a:hover{
+
+#whatsapp a:hover {
   background-color: white !important;
 }
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+/* Popup container */
+.popup {
+  position: fixed;
+  bottom: 161px;
+  right: 21px;
+  background-color: #fff;
+  border: 3px solid #E91E63;
+  padding: 10px;
+  z-index: 999999;
+  border-radius: 10px;
+  color: #050748;
+  /* opacity: 0; */
+  transition: opacity 0.5s ease-in-out;
+  display: none;
+}
+
+.popup.show {
+  opacity: 1;
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  top: -35px;
+  right: -6px;
+  color: #aaa;
+  font-size: 30px;
+  /* font-weight: bold; */
+  cursor: pointer;
+  line-height: 1;
+  padding: 5px;
+  z-index: 999999;  
+}
+
+/* Close button on hover */
+.close:hover {
+  color: black;
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{[[]]}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
 /* 
 ---------------------------------------------
 intro
@@ -2378,7 +2421,7 @@ Footer Style
 
 /* ==========================================================my footer =============================================================================== */
 .contact_us_6 * {
-  font-family: Nunito, sans-serif;
+  font-family: 'poppins', sans-serif;
 }
 
 .contact_us_6 .text-blk {
@@ -3273,7 +3316,7 @@ responsive
 @media (max-width: 767px) {
   .photo {
     line-height: 1.4;
-    font-size:5px;
+    font-size: 5px;
     font-weight: 1000;
   }
 
