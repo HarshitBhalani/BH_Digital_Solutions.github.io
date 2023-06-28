@@ -88,7 +88,7 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hello there 👋🏻,<br><br>We are<span class='bold'><a class='alink'> BH Digital Solutions</a>.</span><br><br>Welcome to BH Digital Solutions, Where Success in the Digital World Begins.<br><br>Send <span class='bold'style='color:yellow;'>'Help'</span> to know more about our company or <br>Send <span class='bold' style='color:yellow;'>'Website'</span> to go back to the website <br>");
+                sendTextMessage("Hello there 👋🏻,<br><br>We are<span class='bold'><a class='alink'> BH Digital Solutions</a>.</span><br><br>Welcome to BH Digital Solutions, Where Success in the Digital World Begins.<br><br>Send <span class='bold'style='color:yellow;'>'Help'</span> to know more about our company or <br>Send <span class='bold' style='color:yellow;'>'Website'</span> to go back to the website <br><br><span style='font-size:10px;'>Note : Scroll Down To aceess The textbox.</span>");
             }, 2000);
             break;
 
@@ -145,6 +145,7 @@ function waitAndResponce(inputText) {
         case "contact":
             sendTextMessage(contactString);
             break;
+
         case "projects":
             sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/Varshithvhegde'> <div class='socialItem'><img class='socialItemI' src='images1/github.svg' alt=''></div> </a></div>");
             break;
@@ -207,9 +208,90 @@ function waitAndResponce(inputText) {
             sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
             break;
 
-        
+        case "hello, how are you":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
 
+        case "hello, how are you?":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
 
+        case "hello how r u":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hello how r u?":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hello, how r u?":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hello hwru":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hello, hwru?":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hello hwru?":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hi hwru":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hi, hwru?":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hi hwru?":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hii hwru":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hii, hwru?":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hii hwru?":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hiii hwru":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hiii, hwru?":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
+
+        case "hiii hwru?":
+            sendTextMessage("Hello there 👋🏻I am Fine.");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            break;
         // case "varshith":
         //     sendTextMessage("Yes, that's me");
         //     break;

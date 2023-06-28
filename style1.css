@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 
-body{
+body {
     padding-top: 1vh;
     background-color: #1b1b1b;
     background-size: unset;
@@ -12,19 +12,19 @@ body{
     height: 98vh;
 }
 
-nav{
+nav {
     display: flex;
     height: 6%;
     background-color: #202c33;
 }
 
-.navbar{
+.navbar {
     width: 100%;
     display: flex;
 }
 
 
-.dpimg{
+.dpimg {
     cursor: pointer;
     border-radius: 100%;
     width: 5%;
@@ -34,7 +34,7 @@ nav{
     margin-left: 10px;
 }
 
-.navbar .personalInfo{
+.navbar .personalInfo {
     line-height: 100%;
     display: flex;
     flex-direction: column;
@@ -42,18 +42,18 @@ nav{
     margin-left: 2%;
 }
 
-.personalInfo #name{
+.personalInfo #name {
     color: #e9edef;
     margin-bottom: 4px;
 }
 
-.personalInfo #lastseen{
+.personalInfo #lastseen {
     color: #8696a0;
     font-size: small;
 }
 
 
-.scrollable{
+.scrollable {
     overflow-y: scroll;
     color: #fff;
     display: flex;
@@ -62,25 +62,25 @@ nav{
     background-image: url('images1/bg2.jpg');
     align-items: flex-end;
     position: relative;
-    -ms-overflow-style: none; 
-    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     position: relative;
 }
 
-.scrollable .chatting{
+.scrollable .chatting {
     overflow-y: scroll;
-    -ms-overflow-style: none; 
-    scrollbar-width:none; 
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     position: relative;
     height: 100%;
     width: 100%;
 }
 
 .scrollable .chatting::-webkit-scrollbar {
-    display: none;
-  }
+    display: block;
+}
 
-#listUL{
+#listUL {
     overflow-y: hidden;
     position: static;
     width: 100%;
@@ -90,20 +90,20 @@ nav{
     flex-direction: column;
 }
 
-#listUL li{
+#listUL li {
     width: 100%;
     text-decoration: none;
     flex-direction: row-reverse;
 }
 
-.sent{
+.sent {
     text-align: end;
     float: right;
     width: auto;
     max-width: 45%;
 }
 
-.green{
+.green {
     margin: 5px;
     text-align: start;
     width: auto;
@@ -112,14 +112,14 @@ nav{
     border-radius: 15px 15px 0px;
 }
 
-#sentlabel{
+#sentlabel {
     color: #94bab3;
     display: block;
     text-align: end;
     font-size: x-small;
 }
 
-.recieved{
+.recieved {
     float: left;
     width: 45%;
     max-width: 45%;
@@ -128,7 +128,7 @@ nav{
 }
 
 
-.grey{
+.grey {
     max-width: 45%;
     margin: 5px;
     text-align: start;
@@ -138,24 +138,24 @@ nav{
     border-radius: 0px 15px 15px;
 }
 
-.grey .mapview{
+.grey .mapview {
     margin: auto;
     display: flex;
     padding: 5px;
 }
 
-.add address{
+.add address {
     margin-top: 10px;
     padding-left: 15px;
 }
 
-.map{
+.map {
     margin: auto;
     width: 100%;
     border-radius: 10px;
 }
 
-.dateLabel{
+.dateLabel {
     color: #94bab3;
     display: block;
     text-align: end;
@@ -165,58 +165,61 @@ nav{
 
 /* help menu bold words color  */
 
-.sk .bold{
+.sk .bold {
     color: rgba(219, 154, 33, 0.822);
 }
 
 
 /* resume thumbnail in received class*/
-.resumeThumbnail{
+.resumeThumbnail {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
 
-.downloadSpace{
+.downloadSpace {
     background-color: #1d282f;
     display: flex;
     width: 100%;
 }
-.downloadSpace .pdfname{
+
+.downloadSpace .pdfname {
     display: flex;
     width: 100%;
 }
-.pdfname label{
+
+.pdfname label {
     margin: auto 0px;
 }
-.downloadSpace img{
+
+.downloadSpace img {
     width: 30px;
     cursor: pointer;
     margin: 5px;
 }
 
 /* this css is used for embedded html in messages */
-.bold{
+.bold {
     font-weight: bold;
 }
 
-.alink{
-    color: goldenrod;
+.alink {
+    color:yellow;
     transition: all 600ms ease;
     text-decoration: none;
 }
 
-.alink:hover{
+.alink:hover {
     text-decoration: none;
-    color: green;
+    color: red;
 }
 
 /* this css is used for social links message */
 
-.social{
+.social {
     padding: 10px;
 }
 
-.social .socialItem{
+.social .socialItem {
     width: 100%;
     border-radius: 10px;
     background-color: #94bab3;
@@ -226,30 +229,31 @@ nav{
     transition: all 500ms ease-in-out;
 }
 
-.social .socialItemI{
+.social .socialItemI {
     margin: auto;
     padding: 10px;
     flex-direction: column;
 }
 
-.social .socialItem:hover{
+.social .socialItem:hover {
     background-color: rgba(58, 170, 58, 0.863);
 }
-#call{
+
+#call {
     flex-direction: column;
     text-align: center;
 }
 
-.number{
+.number {
     display: none;
 }
 
 
 
 
-.scrollable .fullScreenDP{
+.scrollable .fullScreenDP {
     transition: all 700ms ease-in-out;
-    position: absolute;;
+    position: absolute;
     width: 100%;
     height: 100%;
     display: none;
@@ -258,13 +262,13 @@ nav{
     z-index: 1000;
 }
 
-.scrollable .fullScreenDP .insideDP{
+.scrollable .fullScreenDP .insideDP {
     display: flex;
     margin: auto;
     scrollbar-width: 0px;
 }
 
-.closeBTN{
+.closeBTN {
     width: 30px;
     height: 30px;
     display: block;
@@ -272,21 +276,21 @@ nav{
     margin-left: 6%;
     margin-top: 5px;
     cursor: pointer;
-    
+
 }
 
-.btnColor{
+.btnColor {
     fill: rgba(0, 0, 0, 0.692);
     transition: all 400ms ease-in-out;
 }
 
-.closeBTN:hover .btnColor{
+.closeBTN:hover .btnColor {
     fill: red;
 }
 
 
 
-.scrollable .fullScreenDP .insideDP .dp{
+.scrollable .fullScreenDP .insideDP .dp {
     width: 90%;
     margin: auto;
     border-radius: 10px;
@@ -298,7 +302,7 @@ nav{
 
 
 
-footer{
+footer {
     position: relative;
     left: 0;
     bottom: 0;
@@ -310,20 +314,38 @@ footer{
     text-align: center;
 }
 
-.sendBar{
+.sendBar {
     display: flex;
     height: 100%;
     width: 100%;
     margin: auto;
 }
-.sendBar svg{
+
+/* @media (max-width:720px) {
+    .sendBar {
+        margin: -50px 1px;
+    }
+} */
+
+/* For mobile devices with a maximum width of 480px */
+/* @media only screen and (max-width: 480px) {
+    ::-webkit-scrollbar-thumb {
+        background-color: yellow;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background-color: white;
+      }
+  } */
+
+.sendBar svg {
     margin: auto;
     height: 40%;
     min-height: 40%;
 
 }
 
-.sendBar input[type='text']{
+.sendBar input[type='text'] {
     margin: auto;
     margin: 5px;
     border-radius: 10px;
@@ -340,42 +362,42 @@ footer{
 }
 
 
-::placeholder { 
+::placeholder {
     color: #8696a0;
-    opacity: 1; 
-  }
-  
-  :-ms-input-placeholder { 
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
     color: #8696a0;
-  }
-  
-  ::-ms-input-placeholder { 
+}
+
+::-ms-input-placeholder {
     color: #8696a0;
-  }
+}
 
 
 
 @media screen and (min-width: 1024px) {
 
-    body{
+    body {
         margin: auto;
         width: 50vw;
     }
 
-    .sendBar{
+    .sendBar {
         width: 85%;
     }
 
-    .scrollable{
-        -ms-overflow-style: none; 
-        scrollbar-width: none; 
+    .scrollable {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
         position: relative;
         overflow: hidden;
     }
 
-    
 
-    .scrollable .fullScreenDP{
+
+    .scrollable .fullScreenDP {
         display: none;
         width: 100%;
         height: 100%;
@@ -383,22 +405,22 @@ footer{
     }
 
 
-    .scrollable .fullScreenDP .insideDP{
+    .scrollable .fullScreenDP .insideDP {
         display: flex;
         width: 70%;
     }
 
 
-    .scrollable .fullScreenDP .dp{
+    .scrollable .fullScreenDP .dp {
         width: 50%;
         margin: auto;
     }
 
-    .scrollable .closeBTN{
+    .scrollable .closeBTN {
         margin-top: 15px;
     }
 
-    #call:hover .number{
+    #call:hover .number {
         display: block;
         height: auto;
     }
