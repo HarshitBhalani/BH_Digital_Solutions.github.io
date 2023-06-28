@@ -1706,16 +1706,16 @@ Services Style
 }
 
 .services .naccs .menu div {
-  color: #2a2a2a;
-  margin: 0px;
-  width: 15%;
-  font-size: 20px;
-  font-weight: 700;
+  color: black;
+  margin: 2px;
+  width: 17%;
+  font-size: 21px;
+  font-weight: 1000;
   display: inline-block;
   text-align: center;
   cursor: pointer;
   position: relative;
-  border-radius: 15px;
+  border-radius: 5px;
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -3273,8 +3273,8 @@ responsive
 @media (max-width: 767px) {
   .photo {
     line-height: 1.4;
-    font-size: 5px;
-    font-weight: bold;
+    font-size:5px;
+    font-weight: 1000;
   }
 
   .header-area .main-nav .logo h4 {
