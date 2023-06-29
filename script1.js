@@ -93,7 +93,7 @@ function waitAndResponce(inputText) {
             break;
 
         case "help":
-            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'Services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'Contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'Clear'</span> - to clear conversation<br>");
             break;
 
         case "business profile":
@@ -106,6 +106,10 @@ function waitAndResponce(inputText) {
 
         case "our offers":
             sendTextMessage("Comming Soon....");
+            break;
+
+        case "service":
+            sendTextMessage("<span class='sk'>Send Keyword to get more information about our services.<br><br><span class='bold'>'Social Media Marketing'</span><br><span class='bold'>'Search Engine Optimization'</span> / <span class='bold'>'SEO'</span><br><span class='bold'>'Graphic Design'</span><br><span class='bold'>'Website Design'</span><br><span class='bold'>'Website Development'</span><br>");
             break;
 
         case "services":
