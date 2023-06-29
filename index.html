@@ -25,8 +25,16 @@
   <link rel="stylesheet" href="assets/css/animated.css">
   <link rel="stylesheet" href="assets/css/owl.css">
   <link rel="stylesheet" href="assets/css/scroltotop.css">
-
   <link rel="stylesheet" href="assets/css/footer.css">
+
+  <script src="assets/js/email.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("3x-AvIXm9TDcLIb-1");
+    })();
+  </script>
 
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -136,8 +144,7 @@ https://templatemo.com/tm-568-digimedia
 </head>
 
 <body>
-  <!-- <a href="index1.html"><img src="https://img.icons8.com/?size=512&id=61637&format=png" alt=""></a> -->
-  <a href="index1.html" title="Chat With Us" style="position: fixed;
+  <a href="./html1/index1.html" title="Chat With Us" style="position: fixed;
   bottom: 100px;
   right: 22px;
   font-size: 50px;
@@ -648,10 +655,17 @@ https://templatemo.com/tm-568-digimedia
   <div id="popupContainer" class="popup-container" style="z-index:99999;">
     <div id="popupForm" class="popup-form">
 
-      <form action="https://formspree.io/f/mqkojpkz" id="myFormContent" method="POST">
-        <h2>Grab Our Best Digital Marketing Services</h2>
+      <!-- <form action="https://formspree.io/f/mqkojpkz" id="myFormContent" method="POST"> -->
+
+      <!-- <form id="myFormContent" method="POST"> -->
+        <h2 id="form-h2">Grab Our Best Digital Marketing Services</h2>
         <label for="name">Name : </label>
         <input type="Text" id="name" name="name" required>
+
+
+        <label for="email">Email : </label>
+        <input type="email" id="email" name="email" required>
+
 
         <label for="Number">Mobile No : </label>
         <!-- <input type="Number" id="Number" name="Number" min="0" max="9999999999" maxlength="10" required> -->
@@ -672,10 +686,10 @@ https://templatemo.com/tm-568-digimedia
 
         <div class="button-container">
           <button style="color: black;" type="cancel" id="cancelButton"><a>Cancel</a></button>
-          <button type="submit"><a>Submit</a></button>
+          <button type="submit" onclick="sendMail()"><a>Submit</a></button>
 
         </div>
-      </form>
+      <!-- </form> -->
     </div>
   </div>
   <!-- ================================================================ -->
@@ -1258,7 +1272,7 @@ https://templatemo.com/tm-568-digimedia
 
   <script>
 
-    setTimeout(function() {
+    setTimeout(function () {
       document.querySelector('.popup').style.display = 'block';
       document.querySelector('.popup').style.right = '20px';
     }, 5000);
@@ -1266,14 +1280,14 @@ https://templatemo.com/tm-568-digimedia
 
   <!-- JavaScript to hide the popup when the close button is clicked -->
   <script>
-    document.querySelector('.close').addEventListener('click', function() {
+    document.querySelector('.close').addEventListener('click', function () {
       document.querySelector('.popup').style.display = 'none';
     });
   </script>
 
   <!-- JavaScript to hide the popup after 5 seconds -->
   <script>
-    setTimeout(function() {
+    setTimeout(function () {
       document.querySelector('.popup').style.display = 'none';
     }, 15000);
   </script>

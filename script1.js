@@ -1,10 +1,10 @@
 var audio = new Audio('assets1/sentmessage.mp3');
-var contactString = "<div class='social'> <a target='_blank' href='tel:+916358936987'> <div class='socialItem' id='call'><img class='socialItemI' src='images1/phone.svg'/><label class='number'></label></label></div> </a> <a href='mailto:bhdigitalsolutions172@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images1/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://www.facebook.com/bhdigitalsolutions/'> <div class='socialItem'><img class='socialItemI' src='images1/facebook.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/916363549133'> <div class='socialItem'><img class='socialItemI' src='images1/whatsapp.svg' alt=''></div><a target='_blank' href='https://www.instagram.com/bhdigitalsolutions/'> <div class='socialItem'><img class='socialItemI' src='images1/instagram.svg' alt=''></div><a target='_blank' href='https://www.linkedin.com/company/bh-digital-solutions/'> <div class='socialItem'><img class='socialItemI' src='images1/linkedin.svg' alt=''></div>";
+var contactString = "<div class='social'> <a target='_blank' href='tel:+916358936987'> <div class='socialItem' id='call'><img class='socialItemI' src='../images1/phone.svg'/><label class='number'></label></label></div> </a> <a href='mailto:bhdigitalsolutions172@gmail.com'> <div class='socialItem'><img class='socialItemI' src='../images1/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://www.facebook.com/bhdigitalsolutions/'> <div class='socialItem'><img class='socialItemI' src='../images1/facebook.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/916363549133'> <div class='socialItem'><img class='socialItemI' src='../images1/whatsapp.svg' alt=''></div><a target='_blank' href='https://www.instagram.com/bhdigitalsolutions/'> <div class='socialItem'><img class='socialItemI' src='../images1/instagram.svg' alt=''></div><a target='_blank' href='https://www.linkedin.com/company/bh-digital-solutions/'> <div class='socialItem'><img class='socialItemI' src='../images1/linkedin.svg' alt=''></div>";
 
 
-var resumeString = "<img src='images1/Business_Profile_thumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images1/pdf.png'><label>Our Business Profile.pdf</label></div><a href='assets1/Our_Business_Profile.pdf' download='Our_Business_Profile.pdf'><img class='download' src='images1/downloadIcon.svg'></a></div>";
+var resumeString = "<img src='../images1/Business_Profile_thumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='../images1/pdf.png'><label>Our Business Profile.pdf</label></div><a href='../assets1/Our_Business_Profile.pdf' download='Our_Business_Profile.pdf'><img class='download' src='../images1/downloadIcon.svg'></a></div>";
 
-var imagesString = "<img src='images1/sample image thumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images1/pdf.png'><label>Festival Sample Images</label></div><a href='assets1/sample images.pdf' download='Festival_sample_images.pdf'><img class='download' src='images1/downloadIcon.svg'></a></div>";
+var imagesString = "<img src='../images1/sample image thumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='../images1/pdf.png'><label>Festival Sample Images</label></div><a href='../assets1/sample images.pdf' download='Festival_sample_images.pdf'><img class='download' src='../images1/downloadIcon.svg'></a></div>";
 
 
 var addressString = "<div class='mapview'><iframe src='https://www.google.com/maps/dir//Moodbidri+private+Bus+Stand,+Bus+Stand+Rd,+Mudbidri,+Karnataka+574227/@13.0639,74.9991985,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3ba4ab3d49331379:0x17be05cb5b69caa2!2m2!1d74.9957298!2d13.0680955?hl=en' class='map'></iframe></div><label class='add'><address>B2 'Asara'<br>Kodoli<br>Kolhapur, Maharashtra, INDIA 416114</address>";
@@ -147,7 +147,7 @@ function waitAndResponce(inputText) {
             break;
 
         case "projects":
-            sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/Varshithvhegde'> <div class='socialItem'><img class='socialItemI' src='images1/github.svg' alt=''></div> </a></div>");
+            sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/Varshithvhegde'> <div class='socialItem'><img class='socialItemI' src='../images1/github.svg' alt=''></div> </a></div>");
             break;
         case "time":
             var date = new Date();
@@ -303,7 +303,7 @@ function waitAndResponce(inputText) {
         //     break;
 
         case "website":
-            sendTextMessage("Click to go to the website here <a href='index.html' style='color:yellow;font-weight:500'>BH Digital Solutions</a>");
+            sendTextMessage("Click to go to the website here <a href='../index.html' style='color:yellow;font-weight:500'>BH Digital Solutions</a>");
             break;
         // case "blog":
         //     sendTextMessage("You can check my blog here <a target='_blank' href='https://varshithvhegde.github.io/hugo-blog'>Varshith Hegde</a>");
