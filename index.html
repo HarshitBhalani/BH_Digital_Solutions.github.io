@@ -29,14 +29,14 @@
   <link rel="stylesheet" href="assets/css/scroltotop.css">
   <link rel="stylesheet" href="assets/css/footer.css">
 
-  <!-- <script src="assets/js/email.js"></script>
+  <script src="assets/js/email.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
   </script>
   <script type="text/javascript">
     (function () {
       emailjs.init("3x-AvIXm9TDcLIb-1");
     })();
-  </script> -->
+  </script>
 
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -659,66 +659,41 @@ https://templatemo.com/tm-568-digimedia
 
       <!-- <form action="https://formspree.io/f/mqkojpkz" id="myFormContent" method="POST"> -->
 
-      <form id="myFormContent" method="POST" onsubmit="sendEmail(); reset(); return false;">
-        <h2 id="form-h2">Grab Our Best Digital Marketing Services</h2>
-        <label for="name" title="Name is Required">Name : <span style=" color:red;">*</span></label>
-        <input type="Text" id="name" name="name" title="Name is Required" required placeholder="Ex : Name Surname">
+      <!-- <form id="myFormContent" method="POST"> -->
+      <h2 id="form-h2">Grab Our Best Digital Marketing Services</h2>
+      <label for="name" title="Name is Required">Name : <span style=" color:red;">*</span></label>
+      <input type="Text" id="name" name="name" title="Name is Required" required placeholder="Ex : Name Surname">
 
 
-        <label for="email" title="Email is Required">Email : <span style=" color:red;">*</span></label>
-        <input type="email" id="email" name="email" title="Email is Required" required placeholder="Ex : xyz@gmail.com">
+      <label for="email" title="Email is Required">Email : <span style=" color:red;">*</span></label>
+      <input type="email" id="email" name="email" title="Email is Required" required placeholder="Ex : xyz@gmail.com">
 
 
-        <label for="Number" title="Mobile Number is Required">Mobile No : <span style=" color:red;">*</span></label>
-        <!-- <input type="Number" id="Number" name="Number" min="0" max="9999999999" maxlength="10" required> -->
-        <input type="Number" id="Number" name="Number" pattern="/^-?\d+\.?\d*$/"
-          onKeyPress="if(this.value.length==10) return false;" title="Mobile Number is Required" required
-          placeholder="10 Digit Moblie Number" />
+      <label for="Number" title="Mobile Number is Required">Mobile No : <span style=" color:red;">*</span></label>
+      <!-- <input type="Number" id="Number" name="Number" min="0" max="9999999999" maxlength="10" required> -->
+      <input type="Number" id="Number" name="Number" pattern="/^-?\d+\.?\d*$/"
+        onKeyPress="if(this.value.length==10) return false;" title="Mobile Number is Required" required placeholder="10 Digit Moblie Number"/>
 
-        <label for="category" title="Select One of them">Which Type Of Services You Want? : <span
-            style=" color:red;">*</span></label>
-        <select id="category" name="category" required title="Select One of them">
-          <option value="Social Media Marketing">Social Media Marketing</option>
-          <option value="SEO">SEO</option>
-          <option value="Graphic Design">Graphic Design</option>
-          <option value="Website Design">Website Design</option>
-          <option value="Website Development">Website Development</option>
-        </select>
+      <label for="category" title="Select One of them">Which Type Of Services You Want? : <span style=" color:red;">*</span></label>
+      <select id="category" name="category" required title="Select One of them">
+        <option value="Social Media Marketing">Social Media Marketing</option>
+        <option value="SEO">SEO</option>
+        <option value="Graphic Design">Graphic Design</option>
+        <option value="Website Design">Website Design</option>
+        <option value="Website Development">Website Development</option>
+      </select>
 
-        <label for="message" title="Type Your Message Here">List Down Your Required Services : <span
-            style=" color:red;">*</span></label>
-        <textarea id="message" name="message" required placeholder="Type Your Message"
-          title="Type Your Message Here"></textarea>
+      <label for="message" title="Type Your Message">List Down Your Required Services : <span style=" color:red;">*</span></label>
+      <textarea id="message" name="message" required placeholder="Type Your Message"></textarea>
 
-        <div class="button-container">
-          <button style="color: black;" type="cancel" id="cancelButton"><a>Cancel</a></button>
-          <!-- <button type="submit" onclick="sendMail()" id="submitBtn"><a>Submit</a></button> -->
-          <button type="submit"><a>Submit</a></button>
+      <div class="button-container">
+        <button style="color: black;" type="cancel" id="cancelButton"><a>Cancel</a></button>
+        <button type="submit" onclick="sendMail()" id="submitBtn"><a>Submit</a></button>
 
-        </div>
-      </form>
+      </div>
+      <!-- </form> -->
     </div>
   </div>
-
-
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
-  <script>
-    function sendEmail() {
-      Email.send({
-        SecureToken: "6d24f308-ec47-4ea3-9931-810bef0b3ba3",
-        To: "bhdigitalsolutions172@gmail.com",
-        From: document.getElementById("email").value,
-        Subject: "new contact form inqueriry",
-        Body: "Name : " + document.getElementById("name").value
-          + "<br> Email : " + document.getElementById("email").value
-          + "<br> Number : " + document.getElementById("Number").value
-          + "<br> category : " + document.getElementById("category").value
-          + "<br> message : " + document.getElementById("message").value
-      }).then(
-        message => alert("msg send succesfully")
-      );
-    }
-  </script>
   <!-- ======================================================================================== -->
   <!-- ================================================================ -->
 
