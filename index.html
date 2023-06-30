@@ -705,18 +705,15 @@ https://templatemo.com/tm-568-digimedia
   <script>
     function sendEmail() {
       Email.send({
-        SecureToken:"1b9dcaa7-c0bc-4037-adc4-4ca517995726",
-        // Host: "smtp.gmail.com",
-        // Username: "harshitbhalani187@gmail.com",
-        // Password: "Matruchhaya@187",
+        SecureToken: "b94e650a-01ea-419e-9888-b2e4528628ce",
         To: 'bhdigitalsolutions172@gmail.com',
         From: document.getElementById("email").value,
         Subject: "new contact form inqueriry",
         Body: "Name : " + document.getElementById("name").value
           + "<br> Email : " + document.getElementById("email").value
           + "<br> Number : " + document.getElementById("Number").value
-          + " <br> category : " + document.getElementById("category").value
-          + " <br> message : " + document.getElementById("message").value
+          + "<br> category : " + document.getElementById("category").value
+          + "<br> message : " + document.getElementById("message").value
       }).then(
         message => alert("msg send succesfully")
       );
