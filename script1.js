@@ -109,35 +109,35 @@ function waitAndResponce(inputText) {
             break;
 
         case "service":
-            sendTextMessage("<span class='sk'>Send Keyword to get more information about our services.<br><br><span class='bold'>'Social Media Marketing'</span><br><span class='bold'>'Search Engine Optimization'</span> / <span class='bold'>'SEO'</span><br><span class='bold'>'Graphic Design'</span><br><span class='bold'>'Website Design'</span><br><span class='bold'>'Website Development'</span><br>");
+            sendTextMessage("<span class='sk'>Send Keyword to get more information about our services.<br><br>1) <span class='bold'>'Social Media Marketing'</span><br>2) <span class='bold'>'Search Engine Optimization'</span> / <span class='bold'>'SEO'</span><br>3) <span class='bold'>'Graphic Design'</span><br>4) <span class='bold'>'Website Design'</span><br>5) <span class='bold'>'Website Development'</span><br>");
             break;
 
         case "services":
-            sendTextMessage("<span class='sk'>Send Keyword to get more information about our services.<br><br><span class='bold'>'Social Media Marketing'</span><br><span class='bold'>'Search Engine Optimization'</span> / <span class='bold'>'SEO'</span><br><span class='bold'>'Graphic Design'</span><br><span class='bold'>'Website Design'</span><br><span class='bold'>'Website Development'</span><br>");
+            sendTextMessage("<span class='sk'>Send Keyword to get more information about our services.<br><br>1) <span class='bold'>'Social Media Marketing'</span><br>2) <span class='bold'>'Search Engine Optimization'</span> / <span class='bold'>'SEO'</span><br>3) <span class='bold'>'Graphic Design'</span><br>4) <span class='bold'>'Website Design'</span><br>5) <span class='bold'>'Website Development'</span><br>");
             break;
 
         case "social media marketing":
-            sendTextMessage("<span style='color:yellow'>Social Media Marketing</span><br><br>With our social media marketing services, you can build a strong online presence,connect with your target audience, drive website traffic, generate leads, and ultimately achieve your business objectives Remember to personalize this content to reflect your company's unique values, achievements, and brand voice..");
+            sendTextMessage("<span style='color:yellow;font-weight:bold;'>Social Media Marketing</span><br><br>With our social media marketing services, you can build a strong online presence,connect with your target audience, drive website traffic, generate leads, and ultimately achieve your business objectives Remember to personalize this content to reflect your company's unique values, achievements, and brand voice..");
             break;
 
         case "search engine optimization":
-            sendTextMessage("<span style='color:yellow'>Search Engine Optimization</span><br><br>At BH Digital Solutions, where we specialize in driving organic traffic and enhancing your online visibility through effective SEO strategies. Our team of experienced SEO professionals is dedicated helping you achieve higher search engine rankings,increased website traffic, and improved conversions.");
+            sendTextMessage("<span style='color:yellow;font-weight:bold;'>Search Engine Optimization</span><br><br>At BH Digital Solutions, where we specialize in driving organic traffic and enhancing your online visibility through effective SEO strategies. Our team of experienced SEO professionals is dedicated helping you achieve higher search engine rankings,increased website traffic, and improved conversions.");
             break;
 
         case "seo":
-            sendTextMessage("<span style='color:yellow'>Search Engine Optimization</span><br><br>At BH Digital Solutions, where we specialize in driving organic traffic and enhancing your online visibility through effective SEO strategies. Our team of experienced SEO professionals is dedicated helping you achieve higher search engine rankings,increased website traffic, and improved conversions.");
+            sendTextMessage("<span style='color:yellow;font-weight:bold;'>Search Engine Optimization</span><br><br>At BH Digital Solutions, where we specialize in driving organic traffic and enhancing your online visibility through effective SEO strategies. Our team of experienced SEO professionals is dedicated helping you achieve higher search engine rankings,increased website traffic, and improved conversions.");
             break;
 
         case "graphic design":
-            sendTextMessage("<span style='color:yellow'>Graphic Design</span><br><br>At BH Digital Solutions, your destination for exceptional graphic design services. We are a team of passionate designers dedicated to transforming your ideas intocaptivating visual experiences. With our expertise in graphic design, we bring your brand to life through stunning visuals that leave a lasting impression.");
+            sendTextMessage("<span style='color:yellow;font-weight:bold;'>Graphic Design</span><br><br>At BH Digital Solutions, your destination for exceptional graphic design services. We are a team of passionate designers dedicated to transforming your ideas intocaptivating visual experiences. With our expertise in graphic design, we bring your brand to life through stunning visuals that leave a lasting impression.");
             break;
 
         case "website design":
-            sendTextMessage("<span style='color:yellow'>Website Design</span><br><br>At BH Digital Solutions, we understand the significance of a well-designed website in today's digital landscape. We take a collaborative approach, working closely with you to understand your goals, target audience, and unique brand identity.");
+            sendTextMessage("<span style='color:yellow;font-weight:bold;'>Website Design</span><br><br>At BH Digital Solutions, we understand the significance of a well-designed website in today's digital landscape. We take a collaborative approach, working closely with you to understand your goals, target audience, and unique brand identity.");
             break;
 
         case "website development":
-            sendTextMessage("<span style='color:yellow'>Website Developer</span><br><br>We understand the importance of a strong online presence in today's digital world,and we are here to help you build it with purpose. Whether you're a small business, a startup, or a large corporation, we have the expertise to elevate your brand through stunning website design and development.");
+            sendTextMessage("<span style='color:yellow;font-weight:bold;'>Website Developer</span><br><br>We understand the importance of a strong online presence in today's digital world,and we are here to help you build it with purpose. Whether you're a small business, a startup, or a large corporation, we have the expertise to elevate your brand through stunning website design and development.");
             break;
 
         case "clear":
