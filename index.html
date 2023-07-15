@@ -363,7 +363,7 @@ https://templatemo.com/tm-568-digimedia
                   <div class="menu">
                     <a>
                       <div class="first-thumb active">
-                        <div class="thumb">
+                        <div class="thumb" data-tilt>
                           <span class="icon"><img ondragstart="return false;"
                               src="https://cdn-icons-png.flaticon.com/128/1260/1260235.png" alt=""></span>
                           <p style="color: #000!important;" class="photo">Social Media Marketing</p>
@@ -373,7 +373,7 @@ https://templatemo.com/tm-568-digimedia
 
 
                     <div><a>
-                        <div class="thumb">
+                        <div class="thumb" data-tilt>
                           <span class="icon"><img ondragstart="return false;"
                               src="https://cdn-icons-png.flaticon.com/128/3494/3494244.png" alt=""></span>
                           <p style="color: #000!important;" class="photo">SEO</p>
@@ -383,7 +383,7 @@ https://templatemo.com/tm-568-digimedia
 
 
                     <div><a>
-                        <div class="thumb">
+                        <div class="thumb" data-tilt>
                           <span class="icon"><img ondragstart="return false;"
                               src="https://cdn-icons-png.flaticon.com/512/1234/1234404.png?w=740&t=st=1684046055~exp=1684046655~hmac=a5ead0b901f09a0b01140dc2285f63ad5f9afd51cbc8dfbe355939afac02ee11"
                               alt=""></span>
@@ -393,9 +393,8 @@ https://templatemo.com/tm-568-digimedia
                     </div>
 
 
-
                     <div> <a>
-                        <div class="thumb">
+                        <div class="thumb" data-tilt>
                           <span class="icon"><img ondragstart="return false;"
                               src="https://cdn-icons-png.flaticon.com/512/1147/1147084.png?w=740&t=st=1684046107~exp=1684046707~hmac=a00f8c1dc7f45076980d0369e36daf82dc884ef1f93f311c59a20996eef7e423"
                               alt=""></span>
@@ -405,7 +404,7 @@ https://templatemo.com/tm-568-digimedia
                     </div>
 
                     <div class="last-thumb"> <a>
-                        <div class="thumb">
+                        <div class="thumb" data-tilt>
                           <span class="icon"><img ondragstart="return false;"
                               src="https://cdn-icons-png.flaticon.com/512/921/921577.png?w=740&t=st=1684046211~exp=1684046811~hmac=b29515bb34dfbee9a94d3811d94ce6777b536f769b1b61fdbb6c7c8c84abd467"
                               alt=""></span>
@@ -416,6 +415,7 @@ https://templatemo.com/tm-568-digimedia
 
                   </div>
                 </div>
+
                 <div class="col-lg-12">
                   <ul class="nacc">
                     <li class="active">
@@ -672,9 +672,11 @@ https://templatemo.com/tm-568-digimedia
       <label for="Number" title="Mobile Number is Required">Mobile No : <span style=" color:red;">*</span></label>
       <!-- <input type="Number" id="Number" name="Number" min="0" max="9999999999" maxlength="10" required> -->
       <input type="Number" id="Number" name="Number" pattern="/^-?\d+\.?\d*$/"
-        onKeyPress="if(this.value.length==10) return false;" title="Mobile Number is Required" required placeholder="10 Digit Moblie Number"/>
+        onKeyPress="if(this.value.length==10) return false;" title="Mobile Number is Required" required
+        placeholder="10 Digit Moblie Number" />
 
-      <label for="category" title="Select One of them">Which Type Of Services You Want? : <span style=" color:red;">*</span></label>
+      <label for="category" title="Select One of them">Which Type Of Services You Want? : <span
+          style=" color:red;">*</span></label>
       <select id="category" name="category" required title="Select One of them">
         <option value="Social Media Marketing">Social Media Marketing</option>
         <option value="SEO">SEO</option>
@@ -683,7 +685,8 @@ https://templatemo.com/tm-568-digimedia
         <option value="Website Development">Website Development</option>
       </select>
 
-      <label for="message" title="Type Your Message">List Down Your Required Services : <span style=" color:red;">*</span></label>
+      <label for="message" title="Type Your Message">List Down Your Required Services : <span
+          style=" color:red;">*</span></label>
       <textarea id="message" name="message" required placeholder="Type Your Message"></textarea>
 
       <div class="button-container">
@@ -756,8 +759,7 @@ https://templatemo.com/tm-568-digimedia
                 <div class="portfolio-item">
                   <div class="thumb">
                     <!-- <img ondragstart="return false;" src="assets/images/portfolio-01.jpg" alt=""> -->
-                    <img ondragstart="return false;"
-                      src="assets/images/LOGO+1.PNG" alt="">
+                    <img ondragstart="return false;" src="assets/images/LOGO+1.PNG" alt="">
                   </div>
                   <div class="down-content">
                     <h4>Soni Indravadan Nanalal</h4>
@@ -1270,10 +1272,26 @@ https://templatemo.com/tm-568-digimedia
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/custom.js"></script>
   <script src="assets/js/scrolltotop.js"></script>
+  <script src="assets/js/tilt.jquery.js"></script>
   <!-- <script src="assets/js/inspect.js"></script> -->
 
-  <script>
+  <!-- jQuery Librabry -->
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
 
+  <!--start tilt efftc script -->
+  <script>$(document).ready(function () {
+      $('.thumb').tilt({
+        maxTilt: 0,
+        scale: 1.2,
+        speed: 300,
+        // axis: x,
+      })
+    })</script>
+  <!-- end tilt efftc script -->
+
+
+  <script>
     setTimeout(function () {
       document.querySelector('.popup').style.display = 'block';
       document.querySelector('.popup').style.right = '20px';
