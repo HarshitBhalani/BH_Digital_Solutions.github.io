@@ -88,7 +88,8 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hello there 👋🏻,<br><br>We are<span class='bold'><a class='alink'> BH Digital Solutions</a>.</span><br><br>Welcome to BH Digital Solutions, Where Success in the Digital World Begins.<br><br>Send <span class='bold'style='color:yellow;'>'Help'</span> to know more about our company or <br>Send <span class='bold' style='color:yellow;'>'Website'</span> to go back to the website <br><br><span style='font-size:10px;'>Note : Scroll Down To aceess The textbox.</span>");
+                sendTextMessage("Hello there 👋🏻,<br><br>We are<span class='bold'><a class='alink'> BH Digital Solutions</a>.</span><br><br>Welcome to BH Digital Solutions, Where Success in the Digital World Begins.<br><br>Send <span class='bold'style='color:yellow;'>'Help'</span> to know more about our company. ");
+                // or <br>Send <span class='bold' style='color:yellow;'>'Website'</span> to go back to the website <br><br><span style='font-size:10px;'>Note : For Mobile User Scroll Down To aceess The textbox.</span>
             }, 2000);
             break;
 
@@ -296,33 +297,12 @@ function waitAndResponce(inputText) {
             sendTextMessage("Hello there 👋🏻I am Fine.");
             sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our company..<br>e.g<br><span class='bold'>'services'</span> - to know our services<br><span class='bold'>'Business Profile'</span> - to get more about our Business Profile<br><span class='bold'>'Sample Images'</span> - to get more about our images work<br><span class='bold'>'contact'</span> - to get ways to connect with our company<br><span class='bold'>'Our Offers'</span> - to more about our Festival Offers<br><span class='bold'>'clear'</span> - to clear conversation<br>");
             break;
-        // case "varshith":
-        //     sendTextMessage("Yes, that's me");
-        //     break;
-        // case "varshith hegde":
-        //     sendTextMessage("Yes, that's me");
-        //     break;
-        // case "varshith v hegde":
-        //     sendTextMessage("Yes, that's me");
-        //     break;
+
 
         case "website":
             sendTextMessage("Click to go to the website here <a href='../index.html' style='color:yellow;font-weight:500'>BH Digital Solutions</a>");
             break;
-        // case "blog":
-        //     sendTextMessage("You can check my blog here <a target='_blank' href='https://varshithvhegde.github.io/hugo-blog'>Varshith Hegde</a>");
-        //     break;
 
-        // case "github":
-        //     sendTextMessage("You can check my github here <a target='_blank' href='https://github.com/Varshithvhegde'>Varshith Hegde</a>");
-        //     break;
-        // case "linkedin":
-        //     sendTextMessage("You can check my linkedin here <a target='_blank' href='https://www.linkedin.com/in/varshithvhegde'>Varshith Hegde</a>");
-        //     break;
-        // case "friends":
-        // case "friend":
-        //     sendTextMessage("I am always ready to make new friends");
-        //     break;
         // case "input":
         //     setTimeout(() => {
         //         // sendTextMessage("What a coincidence!");
