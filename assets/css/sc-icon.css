@@ -1,0 +1,70 @@
+#sc-div {
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* background-color: #fff; */
+}
+
+.icon-fb,
+.icon-lnk,
+.icon-yt,
+.icon-wp,
+.icon-mail {
+    font-size: 4px;
+    margin: 11px;
+    border: 2px solid black;
+    padding: 7px;
+    border-radius: 9px;
+    color: black;
+    transition: all 0.3s ease-out;
+}
+
+
+.icon-fb:hover {
+    transform: scale(1.1);
+    background-color: #3b5998;
+    /* Facebook blue */
+    color: white;
+}
+
+.icon-lnk:hover {
+    transform: scale(1.1);
+    background-color: #0077B5;
+    /* LinkedIn blue */
+    /* Facebook blue */
+    color: white;
+}
+
+
+.icon-wp:hover {
+    transform: scale(1.1);
+    background-color: #25D366;
+    /* WhatsApp green */
+    color: white;
+}
+
+.icon-mail:hover {
+    transform: scale(1.1);
+    background-color: #DD4B39;
+    /* Gmail red */
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    #sc-div {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .icon-fb,
+    .icon-lnk,
+    .icon-yt,
+    .icon-wp,
+    .icon-mail {
+      font-size: 2px;
+      margin: 5px;
+      padding: 5px;
+      border-radius: 6px;
+    }
+  }

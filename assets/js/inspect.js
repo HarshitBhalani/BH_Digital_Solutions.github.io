@@ -227,6 +227,7 @@ document.addEventListener("keydown", function (event) {
     }
 });
 
+// Disable cursor access to developer tool
 document.addEventListener("mousemove", function (event) {
     if (event.clientX < 0 || event.clientY < 0 || (event.clientX > window.innerWidth || event.clientY > window.innerHeight)) {
         alert("This content is protected.");
